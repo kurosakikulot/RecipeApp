@@ -19,6 +19,8 @@ body {
   margin-top: 50px;
 }
 
+
+
 .search-input {
   border: 3px #755139 solid !important;
   background-color: #f2edd7 !important;
@@ -65,8 +67,23 @@ body {
   padding: 0 20px 0 0;
 }
 
-.footer {
+footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  z-index: 2;
+}
+
+.footer-copyright {
+  background-color: black !important;
+}
+
+.page-footer {
+  margin-top: 50px !important;
+}
+
+@media all and (max-width: 768px) {
+  .page-footer {
+    margin-top: 50px !important;
+  }
 }
